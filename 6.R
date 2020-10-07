@@ -15,4 +15,4 @@ lines(density(e), col = "red", lwd = 3)
 par(mfrow = c(1, 1))
 
 #3
-png(filename = 'plot-ex06.png', bg = 'transparent')
+dev.off()
