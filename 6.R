@@ -1,5 +1,5 @@
 #3
-png(filename = 'plot-ex05.png', bg = 'transparent')
+png(filename = 'plot-ex06.png', bg = 'transparent')
 
 #1
 par(mfrow = c(2, 1))
