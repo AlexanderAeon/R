@@ -4,7 +4,7 @@ N8 <- function(nMean, nSD, uMin, uMax) {
   x <- runif(300, uMin, uMax) # по условию задачи
   y <- 0.75*x + e
   
-  # создаем необходимый макет графика
+  # создаем необходимое полотно графика
   layout(matrix(c(1, 2, 2,
                   1, 2, 2,
                   4, 3, 3), nrow = 3, byrow = T)) 
