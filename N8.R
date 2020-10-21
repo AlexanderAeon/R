@@ -1,4 +1,4 @@
-ExFive <- function(nMean, nSD, uMin, uMax) {
+N8 <- function(nMean, nSD, uMin, uMax) {
   set.seed(26) # ядро ГСЧ - номер варианта
   e <- rnorm(300, nMean, nSD) # количество наблюдений равно 300
   x <- runif(300, uMin, uMax) # по условию задачи
